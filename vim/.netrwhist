@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/jamesduffy/work/luuvit-spree/app/assets/stylesheets/spree/frontend/partials'
-let g:netrw_dirhist_2='/Users/jamesduffy/work/luuvit-spree/app/assets/stylesheets'
-let g:netrw_dirhist_3='/Users/jamesduffy/work/luuvit-spree/app/assets/stylesheets/spree'
-let g:netrw_dirhist_4='/Users/jamesduffy/work/luuvit-spree/app/assets/stylesheets/spree/frontend'
-let g:netrw_dirhist_5='/Users/jamesduffy/work/luuvit-spree/app/assets/stylesheets/spree/frontend/pages'
