@@ -20,6 +20,9 @@ set hlsearch
 " Makes search act like search in modern browsers
 set incsearch
 
+" Use utf-8
+set encoding=utf-8
+
 set ai tabstop=2 shiftwidth=2 smartindent expandtab
 map K i<Enter><Esc>
 
