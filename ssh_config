@@ -1,0 +1,24 @@
+Host duffx ghost do digital-ocean
+    HostName 162.243.53.139
+    Port 22
+    User root
+Host luuvit
+		HostName luuv.it.dev
+		Port 2222
+		User webadm
+Host demo luuvit-demo
+		HostName 128.199.243.219
+		Port 22
+		User safeuser
+Host snapshop production prod gosnapshop.com
+    HostName 125.209.193.56
+    Port 2222
+    User webadm
+Host staging stag staging.gosnapshop.com
+    HostName 125.209.193.56
+    Port 10022
+    User webadm
+Host devserver dev dev.gosnapshop.com
+    HostName 125.209.193.56
+    Port 11122
+    User webadm
