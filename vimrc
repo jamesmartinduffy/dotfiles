@@ -23,10 +23,13 @@ set incsearch
 " Use utf-8
 set encoding=utf-8
 
+" default to using 'g' flag in %s/search/replace/
+set gdefault
+
 set ai tabstop=2 shiftwidth=2 smartindent expandtab
 map K i<Enter><Esc>
 
-colorscheme desert
+"colorscheme desert
 set background=dark
 
 au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
