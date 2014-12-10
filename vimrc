@@ -29,8 +29,17 @@ set gdefault
 set ai tabstop=2 shiftwidth=2 smartindent expandtab
 map K i<Enter><Esc>
 
-colorscheme desert
+set t_Co=256
 set background=dark
+"colorscheme molokai
+"colorscheme grb256
+"colorscheme codeschool
+"colorscheme herald
+"colorscheme kolor
+"colorscheme gruvbox
+colorscheme solarized
+"colorscheme vividchalk
+"colorscheme desert
 
 au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
 
