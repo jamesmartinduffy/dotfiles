@@ -88,23 +88,33 @@ grp() { grep -r "$*" . }
 alias ....="../../.."
 alias gaa="git add --all ."
 function mcd() { mkdir -p "$1" && cd "$1"; }
+alias coff="coffee"
 alias gt="git tag -a"
 alias gts="git tag" # mnemonic "Git TagS"
 alias gf="git fetch"
 alias gcd="git checkout develop"
 alias gcs="git checkout staging"
 alias gcp="git checkout production"
-alias coff="coffee"
+alias repo="hub browse"
+github() { hub browse -- $1 }
+alias issues="hub browse -- issues"
+issue() { hub browse -- issues/$1 }
+alias gnetwork="hub browse -- network"
+alias gpr="hub browse -- pulls"
+alias gcompare="hub browse -- compare"
 
 # common directories
 alias css="cd ~/work/luuvit-spree/app/assets/stylesheets/spree/frontend"
 alias js="cd ~/work/luuvit-spree/app/assets/javascripts/spree/frontend"
 alias views="cd ~/work/luuvit-spree/app/views/spree"
 alias models="cd ~/work/luuvit-spree/app/models/spree"
+alias helpers="cd ~/work/luuvit-spree/app/helpers/spree"
 alias controllers="cd ~/work/luuvit-spree/app/controllers/spree"
 alias app="cd ~/work/luuvit-spree"
+alias vjs="cd ~/work/luuvit-spree/vendor/assets/javascripts/spree/frontend"
+alias vcss="cd ~/work/luuvit-spree/vendor/assets/stylesheets/spree/frontend"
 alias scraper="cd ~/work/luuvit-amz"
 alias ext="cd ~/work/spree-extensions"
 
-export SPREE_TOKEN=0fb35ad6551d489952396abada92c0a0d750e1787e8f9f7c
+# export SPREE_TOKEN=0fb35ad6551d489952396abada92c0a0d750e1787e8f9f7c
 
