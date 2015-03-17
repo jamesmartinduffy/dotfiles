@@ -1,5 +1,8 @@
 syntax on
 
+" CtrlP for searching
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 " Coffeescript support
 call pathogen#infect()
 syntax enable
