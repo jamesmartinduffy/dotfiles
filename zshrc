@@ -95,6 +95,8 @@ alias gf="git fetch"
 alias gcd="git checkout develop"
 alias gcs="git checkout staging"
 alias gcp="git checkout production"
+gfx() { git commit --fixup $1 }
+gri() { git rebase -i --autosquash $1 }
 alias repo="hub browse"
 github() { hub browse -- $1 }
 alias issues="hub browse -- issues"
