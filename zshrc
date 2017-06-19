@@ -77,12 +77,8 @@ alias zconf="vi ~/.zshrc && reload"
 alias sshconf="vi ~/.ssh/config"
 alias clr="clear"
 grp() { grep -r "$*" . }
-alias ....="../../.."
 alias gaa="git add --all ."
 function mcd() { mkdir -p "$1" && cd "$1"; }
-alias gt="git tag -a"
-alias gts="git tag" # mnemonic "Git TagS"
-alias gf="git fetch"
 alias repo="hub browse"
 github() { hub browse -- $1 }
 alias issues="hub browse -- issues"
