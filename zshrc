@@ -87,10 +87,5 @@ alias gnetwork="hub browse -- network"
 alias gpr="hub browse -- pulls"
 alias gcompare="hub browse -- compare"
 
-# current projects shorthand
-alias bot="./bot.sh"
-
 # common directories
 alias css="cd ~/work/luuvit-spree/app/assets/stylesheets/spree/frontend"
-
-export PATH="./node_modules/.bin:$PATH"
